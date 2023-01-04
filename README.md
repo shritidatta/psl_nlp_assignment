@@ -1,7 +1,7 @@
 # NLP Assignment - Ticket Recommendation System
 The notebook explores on creation of a ticket recommendation system for client's complains data.
 
-Problem statement:
+# Problem statement:
 -Prepare solution to build ticketing system there by using json file as your primary datasource (Text corpus with other metadata in it). 
 Step 1: Group data into five categories namely Banking services, loans, Fraudalent reporting, Card, others.
 Step 2: From step 1 create labeled dataset and utilize it to train supervised model like logistic regression, decision tree or random forest.
@@ -17,7 +17,7 @@ Model building using Supervised learning
 Model Training and evaluation
 Inference
 
-Solutioning:
+# Solutioning:
 We need to build a model that is able to classify Customer Complaints based on the products/services. By doing so you can segregate these tickets into their relevant categories.
 
 As data is not labeled, we apply NMF to analyse patterns and classify the tickets into the following 5 clusters based on the products/services.
@@ -28,7 +28,7 @@ As data is not labeled, we apply NMF to analyse patterns and classify the ticket
 - **Mortgages/Loans**
 - **Others**
 
-Approach:
+# Approach:
 ## Steps: 
 * 1. Import libraries 
 * 2. Perform EDA  
